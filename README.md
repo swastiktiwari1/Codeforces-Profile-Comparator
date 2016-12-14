@@ -1,0 +1,1 @@
+A python based utility for comparing two Codeforces users. It uses Codeforces API to grab user data – present rating, highest rating, rank, submissions, contribution etc. It is built on Flask micro-framework.

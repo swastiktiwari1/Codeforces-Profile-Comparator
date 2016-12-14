@@ -1,0 +1,155 @@
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <title>Results</title>
+
+  <style>
+
+  body{
+    background-color: #404040;
+  }
+
+  img{
+    max-height: 200px;
+  }
+
+  table{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+  }
+
+  th, td{
+    padding: 15px;
+  }
+
+  #r1{
+    color: {{col1}};
+  }
+
+  #r2{
+    color: {{col2}};
+  }
+
+  </style>
+
+
+</head>
+
+
+<body>
+
+<center>
+<table style="width:94%;background-color:#808080">
+  <tr>
+      <td>
+        <table style="width:100%;background-color:#a6a6a6">
+            <tr>
+              <td>
+                <table style="width:100%;background-color:#d9d9d9">
+                  <tr><td>Username - {{user1}}</td></tr>
+                  <tr><td>Country - {{country1}}</td></tr>
+                  <tr><td>Rating - {{rating1}} ( MAX - {{maxrating1}} )</td></tr>
+                  <tr><td id='r1'>{{rank1}}</td></tr>
+                </table>
+              </td>
+              <td>
+                <table style="width:100%;background-color:#d9d9d9">
+                  <tr><td><center><img src={{pic1}}></img></center></td></tr>
+                </table>
+              </td>
+            </tr>
+        </table>
+      </td>
+
+      <td>
+        <table style="width:100%;background-color:#a6a6a6">
+            <tr>
+              <td>
+                <table style="width:100%;background-color:#d9d9d9">
+                  <tr><td>Username - {{user2}}</td></tr>
+                  <tr><td>Country - {{country2}}</td></tr>
+                  <tr><td>Rating - {{rating2}} ( MAX - {{maxrating2}} )</td></tr>
+                  <tr><td id='r2'>{{rank2}}</td></tr>
+                </table>
+              </td>
+              <td>
+                <table style="width:100%;background-color:#d9d9d9">
+                  <tr><td><center><img src={{pic2}}></img></center></td></tr>
+                </table>
+              </td>
+            </tr>
+        </table>
+      </td>
+  </tr>
+
+  <tr>
+    <td>
+      <table style="width:100%;background-color:#d9d9d9">
+        <tr><td>
+      Organisation - {{org1}}    |   Friend of {{friend1}} Users   |    Contribution - {{contribution1}}
+    </td></tr>
+    </table>
+    </td>
+    <td>
+      <table style="width:100%;background-color:#d9d9d9">
+        <tr><td>
+      Organisation - {{org2}}    |   Friend of {{friend2}} Users   |    Contribution - {{contribution2}}
+    </td></tr>
+    </table>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+        <table style="width:100%;background-color:#d9d9d9">
+          <tr><td>
+        Previous {{sub1}} submissions record
+      </td></tr>
+      </table>
+      <table style="width:100%;background-color:#d9d9d9">
+        <tr>
+          <td>AC</td><td>WA</td><td>TLE</td><td>RE</td><td>CE</td><td>OTHER</td><td>ACCURACY</td>
+        </tr>
+        <tr>
+          <td>{{AC1}}</td><td>{{WA1}}</td><td>{{TLE1}}</td><td>{{RE1}}</td><td>{{CE1}}</td><td>{{other1}}</td><td>{{acc1}}%</td>
+        </tr>
+      </table>
+    </td>
+    <td>
+        <table style="width:100%;background-color:#d9d9d9">
+          <tr><td>
+        Previous {{sub2}} submissions record
+      </td></tr>
+      </table>
+      <table style="width:100%;background-color:#d9d9d9">
+        <tr>
+          <td>AC</td><td>WA</td><td>TLE</td><td>RE</td><td>CE</td><td>OTHER</td><td>ACCURACY</td>
+        </tr>
+        <tr>
+          <td>{{AC2}}</td><td>{{WA2}}</td><td>{{TLE2}}</td><td>{{RE2}}</td><td>{{CE2}}</td><td>{{other2}}</td><td>{{acc2}}%</td>
+        </tr>
+      </table>
+
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+          <table style="width:100%;background-color:#d9d9d9">
+            <tr><td>
+          MAX Rating Jump of {{maxjump1}}
+        </td></tr>
+        </table>
+    </td>
+    <td>
+            <table style="width:100%;background-color:#d9d9d9">
+              <tr><td>
+            MAX Rating Jump of {{maxjump2}}
+          </td></tr>
+          </table>
+    </td>
+  </tr>
+</table>
+</center>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<html>
+
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+<title>Home</title>
+
+<style>
+img{
+  max-height: 180px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+body{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+  background-color:#d9d9d9;
+}
+
+form{
+  margin:10px auto;
+  max-width: 400px;
+  padding: 20px 12px 100px 0px;
+}
+
+input[type="text"] {
+    width: 200px;
+    line-height: 26px;
+    border: 2px  #999999 solid;
+}
+
+input[type="text"]:hover {
+    width: 200px;
+    line-height: 26px;
+    border: 2px #404040 solid;
+}
+
+.button{
+    background-color: #737373; /* Green */
+    border: none;
+    color: white;
+    padding: 8px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 36px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+
+.button{
+    background-color: white;
+    color: black;
+    border: 2px solid #737373;
+}
+
+.button:hover{
+    background-color: #737373;
+    color: white;
+}
+
+#box{
+  width: 500px;
+  height: 600px;
+  margin-top: 20px;
+  background-color: white;
+}
+
+p{
+  font-size: 14px;
+}
+</style>
+
+</head>
+
+
+<body>
+<center>
+  <div id='box'>
+  <div><center>
+    <img src ='https://lh3.googleusercontent.com/rEH-1a9sAspzhz9eO_fE8pombbPunjkUFwOed9fNCwn24n9EoI2hvuLNd0wTuvgWU_6q3jmYt9CvL6lwQsNx-k7NFsx0h_b0n-QfHBYEHKRBTcpbe5tj09SxguLzcOlI9WsXYVxOpXxYg81PesuslRTymaI4chms5LAzSwp90PptZE7sqI3M4X4I1n4T1Lph8tC1WvVAqTPUFj0afwoKAN6fWiJvfj9B8SX7LomDZ3lKprkSPrAEtQYXf4NgTCtaLB0TwUFHZnplSDvjGCaIMiF6Mio2nKuVfynMOMqwbrTxgaQ19JbxqISyf8bQim59xMZdMxOQf133UR3Umqpa1FSCIHyUs4U7b6gSoHxZEwyH3udBKJCiww5Dbjw_HSdUgDIa1c9iBqfNzjWZQ1wGX9-TtXKU6WcaPHxuw3d_b6QdskS0OAOjMQyd6-5BxYm753j_cjBchN-9gd7cXjoUbN7BUJx5hbskUhG9iwe6s49OPR7lY_OiAWL3q1JCIKgGboVKmGh8VZhxXXRUIypjVgcVJ3MQncqh8_NUC_S5WgpRw9nNKE8gOp1lLA1a3b9fAl20lilepKgJ61V0ALw-AOxjBxPViOHPhEE15wnLFGb6W5w8b2o=w280-h200-no'></img><br>
+    Profile Comparator</center>
+  </div>
+
+  <form action="http://127.0.0.1:5000/compare" method="post">
+    <p>COMPARE</p>
+  <input type="text" name="user1"><p>WITH</p>
+  <input type="text" name="user2">
+  <p>
+    <input class = 'button' type="submit" value="SUBMIT">
+  </p>
+  </form>
+</div>
+</center>
+</body>
+</html>
